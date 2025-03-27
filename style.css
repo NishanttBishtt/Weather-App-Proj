@@ -1,0 +1,154 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins';
+}
+
+html, body{
+width: 100%;
+height: 100%;
+background-color: rgb(17, 17, 17);
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+.card{
+    max-width: 440px;
+    width: 80%;
+    /* height: 700px; */
+    background: linear-gradient(225deg, #9cafb8, #65717B);
+    border-radius: 20px;
+    padding: 40px 30px;
+    margin: 100px auto 0;
+}
+.search{
+    display: flex;
+    /* background-color: lightblue; */
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 30px 30px; */
+    width: 100%;
+}
+.search input{
+    border: 0px;
+    outline: 0;
+    width: 270px;
+    /* background-color: red; */
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    flex: 1;
+    margin-right: 16px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    /* padding: 4px 4px; */
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.search button img{
+    height: 16px;
+    /* width: 100%; */
+    background-position: center;
+}
+/* .weather img{
+    height: 215px;
+    position: relative;
+    right: 24px;
+
+} */
+.city{
+    /* background-color: lightgreen; */
+    width: 67%;
+    height: 76px;
+    margin: 25px 0px 10px 0px;
+}
+.city h1{
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    border-bottom: 1.5px solid white;
+}
+.weather{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    /* background-color: lightcoral; */
+    /* display: none; */
+}
+.weather h2{
+    font-size: 65px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 4px;
+    /* position: relative;
+    right: 46px; */
+}
+.det-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px 5px 10px;
+    /* margin-top: 40px; */
+}
+.det-head h3{
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+.details{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0 16px 0px 20px;
+        margin-top: 5px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    color: white;
+}
+.col img{
+    width: 60px;
+    margin-right: 10px;
+}
+.line{
+    height: 0.7px;
+    margin-top: 20  px;
+    background-color: white;
+}
+.det-box{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 25px 5px;
+    margin-top: 22px;
+
+
+}
+.main{
+    /* margin: auto; */
+    display: none;
+}
+.error{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 12px;
+    margin-top: 10px;
+    display: none;
+}
